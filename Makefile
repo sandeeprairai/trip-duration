@@ -5,7 +5,7 @@
 #################################################################################
 
 PROJECT_DIR := $(shell dirname $(realpath $(lastword $(MAKEFILE_LIST))))
-BUCKET = s3://buckets/nyc-taxi-campusx
+BUCKET = s3://buckets/nyc-taxi-trip
 PROFILE = default
 PROJECT_NAME = trip-duration
 PYTHON_INTERPRETER = python3
